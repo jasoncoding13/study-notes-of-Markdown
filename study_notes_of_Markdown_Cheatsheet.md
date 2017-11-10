@@ -209,17 +209,33 @@ Markdown在这里支持语法高亮显示数十种语言（而完全是真正的
 
 代码块用三条反勾号` ``` ` 隔开，或者用四个空格缩进。
 建议只使用前者，因为排版更整洁，而且只有前者支持语法高亮。
-但也有场景需要两者组合使用。例如在代码块中需要使用反勾号。 
+但也有场景需要两者组合使用。例如在代码块中需要使用反勾号。
+    
+    ```javascript
+    var s = "JavaScript syntax highlighting";
+    alert(s);
+    ```
+    
+    ```python
+    s = "Python syntax highlighting"
+    print s
+    ```
+    
+    ```
+    没有指定语言的时候不支持语法高亮。
+    但是将会把代码块中的内容标记html5的<b>加粗标签<b>。
+    ```
+    
 ```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
 ```
- 
+
 ```python
 s = "Python syntax highlighting"
 print s
 ```
- 
+
 ```
 没有指定语言的时候不支持语法高亮。
 但是将会把代码块中的内容标记html5的<b>加粗标签<b>。
