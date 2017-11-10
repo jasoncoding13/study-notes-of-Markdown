@@ -207,20 +207,9 @@ Markdown在这里支持语法高亮显示数十种语言（而完全是真正的
 ```
 使用反勾号强调代码`code`
 
-代码块用三条反勾号```隔开，或者用四个空格缩进。
+代码块用三条反勾号隔开，或者用四个空格缩进。
 建议只使用前者，因为排版更整洁，而且只有前者支持语法高亮。
-但也有场景需要两者组合使用。例如在代码块中需要使用反勾号。
-    
-    ```javascript
-    var s = "JavaScript syntax highlighting";
-    alert(s);
-    ```
-    
-    ```python
-    s = "Python syntax highlighting"
-    print s
-    ```
-        
+但也有场景需要两者组合使用。例如在代码块中需要使用反勾号。 
 ```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
@@ -239,21 +228,3 @@ print s
 ## 表格
 ---
 表格不是Markdown的核心规范，但这是GFM的一部分同时Markdown支持表格的排版。  
-They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.
-
-Colons can be used to align columns.
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-There must be at least 3 dashes separating each header cell.
-The outer pipes (|) are optional, and you don't need to make the 
-raw Markdown line up prettily. You can also use inline Markdown.
-
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
