@@ -221,12 +221,12 @@ Markdown在这里支持语法高亮显示数十种语言（而完全是真正的
     s = "Python syntax highlighting"
     print s
     ```
-    
-    ```
-    没有指定语言的时候不支持语法高亮。
-    但是将会把代码块中的内容标记html5的加粗标签<b>。
+    
     ```
-    
+    没有指定语言的时候不支持语法高亮。
+    但是将会把代码块中的内容标记html5的<b>加粗标签<b>。
+    ```
+    
 ```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
@@ -239,7 +239,7 @@ print s
  
 ```
 没有指定语言的时候不支持语法高亮。
-但是将会把代码块中的内容标记html5的加粗标签<b>。
+但是将会把代码块中的内容标记html5的<b>加粗标签<b>。
 ```
 
 ## 表格
