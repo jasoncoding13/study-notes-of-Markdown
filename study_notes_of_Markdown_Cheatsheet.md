@@ -256,26 +256,26 @@ print s
 
 每个表格头单元至少有3个破折号分割。
 两边的竖杠(|)是可选的。你也不一定要让原始的markdown看上去好看。
-You can also use inline Markdown.
+同时你可以直接插入Markdown代码。
 
-Markdown | Less | Pretty
+Markdown | 直接 | 插入
 --- | --- | ---
 *仍然* | `看上去` | **不错**
 1 | 2 | 3
 ```
-竖杠可以使用来对齐表格。
+使用竖杠来对齐列。
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| 表格是 | 那么的 | 酷阿！ |
+| ------|:-----:| -----:|
+| 第三列 | 右对齐 | $1600 |
+| 第二列 | 中对齐 |   $12 |
+| 注意使 | 用冒号 |    $1 |
 
-There must be at least 3 dashes separating each header cell.
-The outer pipes (|) are optional, and you don't need to make the 
-raw Markdown line up prettily. You can also use inline Markdown.
+每个表格头单元至少有3个破折号分割。
+两边的竖杠(|)是可选的。你也不一定要让原始的markdown看上去好看。
+同时你可以直接插入Markdown代码。
 
-Markdown | Less | Pretty
+Markdown | 直接 | 插入
 --- | --- | ---
-*Still* | `renders` | **nicely**
+*仍然* | `看上去` | **不错**
 1 | 2 | 3
