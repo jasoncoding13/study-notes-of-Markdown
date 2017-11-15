@@ -1,5 +1,4 @@
 # Markdown Cheat Sheet
----
 这作为一个快速参考和展示。  
 有关更完整的信息，请参阅[John Gruber's original spec](https://daringfireball.net/projects/markdown/)
 和[Github-flavored Markdown info page](https://help.github.com/categories/writing-on-github/)。  
@@ -21,8 +20,7 @@
 11. 换行
 12. 视频
 
-#标题
----
+# 标题
 ```
 # 一级标题
 ## 二级标题
@@ -53,7 +51,6 @@
 ------
 
 ## 斜体、加粗、划线
----
 ```
 斜体强调，使用 *星号* 或者 _下划线_。
 
@@ -72,7 +69,6 @@
 划线使用双波浪号。~~划此处~~。
 
 ## 列表
----
 （以下这个例子，每行开始与结束的空格将使用点号替代：·）
 ```
 1. 有序列表第一个元素
@@ -114,7 +110,6 @@
 + 或者加号
 
 ## 超链接
----
 有两种方法创建超链接：
 ```
 [使用中括号和小括号实现超链接，中括号中输入文字，小括号中输入链接](https://www.baidu.com)
@@ -170,7 +165,6 @@
 [超链接]: https://nba.hupu.com "虎扑篮球"
 
 ## 图片
----
 ```
 这是Markdown的logo：
 类似超链接的方式，组合感叹号插入图片。
@@ -195,7 +189,6 @@
 [logo]: ./Markdown-mark.svg "Logo2"
 
 ## 代码和语法高亮
----
 代码块是Markdown规范的一部分，但语法高亮不是。但是许多排版工具都支持语法高亮。  
 支持哪些语言以及应如何编写这些语言名称因工具而异。  
 Markdown在这里支持语法高亮显示数十种语言（而完全是真正的语言，如diffs和HTTP headers）。  
@@ -207,8 +200,9 @@ Markdown在这里支持语法高亮显示数十种语言（而完全是真正的
 ```
 使用反勾号强调代码`code`
 
-代码块用三个反勾号` ``` ` 隔开或者用四个空格缩进。
-建议只使用前者，因为排版更整洁，而且只有前者支持语法高亮。
+代码块用三个反勾号` ``` ` 隔开或者用4个空格缩进。  
+建议只使用前者，因为排版更整洁，而且只有前者支持语法高亮。  
+在git自带的编辑器中，使用了4个<tab>实现4个空格缩进。
 
     ```javascript
     var s = "JavaScript syntax highlighting";
@@ -241,7 +235,6 @@ print s
 ```
 
 ## 表格
----
 表格不是Markdown的核心规范，但这是GFM的一部分同时Markdown支持表格的排版。
 相比于从别的地方复制粘贴，这是向电子邮件添加表格的更简单有效的方法。
 
@@ -281,7 +274,6 @@ Markdown | 直接 | 插入
 1 | 2 | 3
 
 ## 引用文字
----
 使用大于号插入引用文字块。
 ```
 > 在电子邮件回复中可以实现引用文字块是很方便的。
@@ -314,11 +306,10 @@ Markdown | 直接 | 插入
   <dd>列表元素</dd>
 
   <dt>在HTML中使用Markdown</dt>
-  <dd>并*不能*很好地**工作**。请使用HTML<em>em标签</em>。</dd>
+  <dd>此处与原文存在矛盾，Markdown语法*依然*能够**工作**。原文建议在HTML中仅使用HTML<em>标签</em>。</dd>
 </dl>
 
 ## 分割线
----
 ```
 三个和或以上
 
@@ -349,3 +340,39 @@ ___
 下划线
 
 ## 换行
+对学习换行符的基本建议是尝试。按一下<Enter>（即插入一个换行符）和按两下<Enter>（即插入两个换行符），看看会发生什么。你会很快学会得到你想要的。
+
+这里有一些要尝试的：
+```
+开始行。
+
+插入两个换行符，即与开始行之间有一个空行。本行与开始行将会是单独的两个*段落*。
+
+本行结束插入两个空格和一个换行符。  
+本行与上一行实现换行，但它与上一行是相同的一个*段落*。
+
+
+那么插入三个换行符呢？最终效果与插入两个换行符一样。
+```
+开始行。
+
+插入两个换行符，即与开始行之间有一个空行。本行与开始行将会是单独的两个*段落*。
+
+本行结束插入两个空格和一个换行符。  
+本行与上一行实现换行，但它与上一行是相同的一个*段落*。
+
+
+那么插入三个换行符呢？最终效果与插入两个换行符一样。
+
+## 视频
+视频不能直接插入，但是可以使用类似插入图片的方式实现：
+```
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+```
+<a href="https://www.youtube.com/watch?v=6A5EpqqDOdk
+" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=6A5EpqqDOdk)
