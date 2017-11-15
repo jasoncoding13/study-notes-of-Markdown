@@ -283,10 +283,19 @@ Markdown | 直接 | 插入
 ## 引用文字
 ---
 ```
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
+> 在电子邮件回复中可以实现引用文字块是很方便的。
+> 这一行与上一行属于同一个引用文字块。注意上一行结束有2个空格缩进。
 
 引用文字块分割
 
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
+> 这是引用文字块中一条很长的文本。*很长* **非常长** ~~超级非常长~~ **终极_超级非常长_** ~~无敌**终极_非常长_**~~。我们可以在引用文字块中使用Markdown语法。
 ```
+> 在电子邮件回复中可以实现引用文字块是很方便的。  
+> 这一行与上一行属于同一个引用文字块。注意上一行结束有2个空格缩进。
+
+引用文字块分割
+
+> 这是引用文字块中一条很长的文本。*很长* **非常长** ~~超级非常长~~ **终极_超级非常长_** ~~无敌**终极_非常长_**~~。我们可以在引用文字块中使用Markdown语法。
+
+## 内联Html
+---
