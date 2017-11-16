@@ -7,7 +7,7 @@
 你也可以看看[more Markdown tools](https://github.com/adam-p/markdown-here/wiki/Other-Markdown-Tools)。
 
 **目录**
-1. [标题](https://github.com/jason-ding13/study-notes-of-Markdown/blob/master/study_notes_of_Markdown_Cheatsheet.md#标题)
+1. [标题](#标题)
 2. 斜体、加粗、划线  
 3. 列表  
 4. 超链接  
