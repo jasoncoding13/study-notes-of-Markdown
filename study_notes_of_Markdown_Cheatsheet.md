@@ -369,7 +369,7 @@ ___
 ```
 
 ```
-<a href="http://www.youtube.com/watch?v=T-D1KVIuvjA" target="_blank"><img src="./youtube_mark.png" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+<a href="http://www.youtube.com/watch?v=T-D1KVIuvjA" target="_blank"><img src="https://img.youtube.com/vi/T-D1KVIuvjA/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
-[![Alt text for your video](./youtube_mark.png)](http://www.youtube.com/watch?v=T-D1KVIuvjA)
+[![Alt text for your video](https://img.youtube.com/vi/T-D1KVIuvjA/0.jpg)](http://www.youtube.com/watch?v=T-D1KVIuvjA)
 ---
