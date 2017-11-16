@@ -365,11 +365,16 @@ ___
 那么插入三个换行符呢？最终效果与插入两个换行符一样。
 
 ## 视频
-视频不能直接插入，但是可以使用类似插入图片的方式实现：
+视频不能直接插入，但是可以使用HTML插入视频的超链接或者使用Markdown语法把视频封面图片作为视频的超链接两种方式实现：
 ```
+<a href="http://www.youtube.com/watch?6A5EpqqDOdk" target="_blank"><img src="https://img.youtube.com/vi/6A5EpqqDOdk/0.jpg" alt="使用HTML插入视频，这是可选的标题属性" width="240" height="180" border="10" /></a>
 
+[![视频封面图片标题](https://img.youtube.com/vi/6A5EpqqDOdk/0.jpg)](http://www.youtube.com/watch?v=6A5EpqqDOdk)  
+使用Markdown语法插入视频无法选择图片大小和边界等属性。
 ```
-<a href="http://www.youtube.com/watch?v=T-D1KVIuvjA" target="_blank"><img src="https://img.youtube.com/vi/T-D1KVIuvjA/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+<a href="http://www.youtube.com/watch?6A5EpqqDOdk" target="_blank"><img src="https://img.youtube.com/vi/6A5EpqqDOdk/0.jpg" alt="使用HTML插入视频，这是可选的标题属性" width="240" height="180" border="10" /></a>
 
-[![Alt text for your video](https://img.youtube.com/vi/T-D1KVIuvjA/0.jpg)](http://www.youtube.com/watch?v=T-D1KVIuvjA)
+[![视频封面图片标题](https://img.youtube.com/vi/6A5EpqqDOdk/0.jpg)](http://www.youtube.com/watch?v=6A5EpqqDOdk)  
+使用Markdown语法插入视频无法选择图片大小和边界等属性。
+
 ---
