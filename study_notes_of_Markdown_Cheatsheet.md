@@ -369,15 +369,7 @@ ___
 ```
 
 ```
-<a href="static.hdslb.com/miniloader.swf?aid=8284652&page=1" target="_blank"><img src="./Markdown-mark.svg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+<a href="http://www.youtube.com/watch?v=T-D1KVIuvjA" target="_blank"><img src="./youtube_mark.png" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
-<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=8284652&page=1" pluginspage="//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
-
-<iframe frameborder="0" width="640" height="498" src="https://v.qq.com/iframe/player.html?vid=t03662fzint&tiny=0&auto=0" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6A5EpqqDOdk" frameborder="0" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="http://tv.sohu.com/upload/static/share/share_play.html#90268916_9365222_0_9001_0" frameborder="0" allowfullscreen></iframe>
-
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![Alt text for your video](./youtube_mark.png)](http://www.youtube.com/watch?v=T-D1KVIuvjA)
 ---
