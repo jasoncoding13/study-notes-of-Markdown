@@ -1,5 +1,4 @@
 # Markdown学习笔记
----
 **目录**
 1. [Study notes of Markdown Cheatsheet][1]  
    使用Markdown重新实现[Markdown Cheatsheet][2]的学习笔记：  
