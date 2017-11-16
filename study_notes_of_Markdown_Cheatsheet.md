@@ -298,7 +298,7 @@ Markdown | 直接 | 插入
   <dd>列表元素</dd>
 
   <dt>在HTML中使用Markdown</dt>
-  <dd>并*不能*很好地**工作**。请使用HTML<em>em标签</em>。</dd>
+  <dd>此处与原文存在矛盾，Markdown语法*依然*能够**工作**。原文建议在HTML中仅使用HTML<em>标签</em>。</dd>
 </dl>
 ```
 <dl>
