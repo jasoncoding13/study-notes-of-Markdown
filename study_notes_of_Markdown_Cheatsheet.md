@@ -170,12 +170,12 @@
 类似超链接的方式，组合感叹号插入图片。
 
 在图片链接后使用空格+双引号加入标题。
-![选择性输入文本作为图片注释，此处文本将不会被打印](./Markdown-mark.svg "Logo1")
+![选择性输入文本作为图片注释，此处文本将不会被打印](./Markdown_mark.svg "Logo1")
 
 同样可以实现类似引用的插入图片。
 ![同样此处可选择性输入][logo]
 
-[logo]: ./Markdown-mark.svg "Logo2"
+[logo]: ./Markdown_mark.svg "Logo2"
 ```
 这是Markdown的logo：
 类似超链接的方式，组合感叹号插入图片。
@@ -369,7 +369,9 @@ ___
 ```
 
 ```
-<a href="https://www.bilibili.com/video/av8284652/?from=search&seid=13560690824448542981" target="_blank"><img src="./Markdown-mark.svg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+<a href="static.hdslb.com/miniloader.swf?aid=8284652&page=1" target="_blank"><img src="./Markdown-mark.svg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=8284652&page=1" pluginspage="//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
 
 <iframe frameborder="0" width="640" height="498" src="https://v.qq.com/iframe/player.html?vid=t03662fzint&tiny=0&auto=0" allowfullscreen></iframe>
 
